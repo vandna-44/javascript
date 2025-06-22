@@ -34,3 +34,32 @@ const myFunction = function(){
     console.log("hello");
 }
 console.log(typeof myFunction);
+
+
+//----------------------------memory
+//stack (primitive), Heap (non-Primitive)
+
+let name = "jay"
+
+let anothername = "roy"
+anothername = "jon"
+
+
+
+//console.log(name);
+//console.log(anothername);
+
+let userOne = {
+    Email = "user@xyzemail.com",
+    Upi = "user@ybl",
+}
+
+let userTwo = userOne
+
+userTwo.email = "joy@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
